@@ -363,6 +363,11 @@ text-shadow:1px 1px #73757E;
     width: 90%;
     margin-bottom: 30px;
 }
+#sec-3 .card img {
+    height: 320px; /* Set your desired fixed height */
+    width: 100%; /* Make sure the image spans the width of the container */
+    object-fit: cover; /* This crops the image to fit the fixed height */
+}
 #sec-3 .card p{
     text-align: justify;
     word-break: break-all;
@@ -508,6 +513,8 @@ text-shadow:1px 1px #73757E;
     margin-top: 1.85rem;
 }
 #sec-5 .customer{
+    width:96px;
+    height:96px;
     display: block;
     margin: 0px auto;
     border-radius: 50%;
